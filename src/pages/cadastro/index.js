@@ -6,7 +6,7 @@ export default function Cadastro() {
     return (
         <div className="container-fluid h-100 bg-primary">
             <div className="col-12">
-                <Header whiteVersion />
+                <Header whiteVersion hideCart/>
             </div>
             <div className="row">
                 <div className="col-6 text-right my-auto">

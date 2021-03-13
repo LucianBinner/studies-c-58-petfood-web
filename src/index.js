@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Cadastro from './pages/cadastro';
-import Checkout from './pages/checkout';
+import Routes from './routes';
 
 import './styles/global.css';
 
 ReactDOM.render(
   <>
-    <Checkout />
+    <Routes />
   </>,
   document.getElementById('root')
 );
